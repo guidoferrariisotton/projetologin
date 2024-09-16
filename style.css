@@ -19,7 +19,7 @@ main{
     width: 100vw;
 }
 
-section{
+section#login{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -29,13 +29,15 @@ section{
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login>div#imagem{
     display: block;
     background: black url(imagens/pexels-dinnow-86001860-9444476.jpg) no-repeat;
     height: 200px;
-    background-size: cover
+    background-size: cover;
 }
 
 section#login>div#form{
