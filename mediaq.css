@@ -19,6 +19,16 @@ body{
         float: right;
         width: 60%;
     }
+
+    form>div.campo{
+        background-color: rgba(0, 0, 0, 0.534);
+        display: block;
+        height: 30px;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 55%;
+        padding-left: 5px;
+    }
 }
 
 @media screen and (min-width:992px) {
@@ -38,5 +48,15 @@ body{
     section#login>div#form{
         float: right;
         width: 50%;
-    }    
+    }
+    
+    form>div.campo{
+        background-color: rgba(0, 0, 0, 0.534);
+        display: block;
+        height: 30px;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 55%;
+        padding-left: 5px;
+    }
 }

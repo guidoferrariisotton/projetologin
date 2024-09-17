@@ -44,3 +44,73 @@ section#login>div#form{
     padding: 10px;
     display: block;
 }
+
+div>h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2.2em;
+}
+
+div>form>p{
+    font-size: 1.2em;
+}
+
+form>div.campo{
+    background-color: rgba(0, 0, 0, 0.534);
+    display: block;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    padding-left: 5px;
+}
+
+div.campo>span{
+    padding: 3px;
+    width: 40px;
+    font-size: 1.5;
+}
+
+div.campo>input{
+    font-size: 1em;
+    width: calc(90% - 20px);
+    background-color: white;
+    height: 100%;
+    transform: translate(-6px);
+    border: 0px;
+    border-radius: 3px;
+    padding: 4px;
+}
+
+form> input[type= submit]{
+    display: block;
+    font-size: 1em;
+    width: 30%;
+    height: 30px;
+    background-color:  #892e07a1;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+form> input[type= submit]:hover{
+    background-color: #892e07cd;
+}
+
+form>a#botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 70%;
+    height: 30px;
+    background-color:  #892e07a1;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+
+form>a#botao:hover{
+    background-color: #892e07cd;
+}
