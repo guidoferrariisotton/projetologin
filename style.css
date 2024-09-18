@@ -66,20 +66,17 @@ form>div.campo{
 }
 
 div.campo>span{
-    padding: 3px;
     width: 40px;
-    font-size: 1.5;
 }
 
 div.campo>input{
     font-size: 1em;
-    width: calc(90% - 20px);
-    background-color: white;
+    float: right;
+    width: calc(93% - 25px);
     height: 100%;
-    transform: translate(-6px);
     border: 0px;
     border-radius: 3px;
-    padding: 4px;
+    padding: 3px;
 }
 
 form> input[type= submit]{

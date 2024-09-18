@@ -6,7 +6,8 @@ body{
 }
 
     section#login{
-        width: 90vw;
+        width: 80vw;
+        height: 350px;
     }
 
     section#login>div#imagem{
@@ -29,6 +30,10 @@ body{
         width: 55%;
         padding-left: 5px;
     }
+
+    form>a#botao{
+        width: 40%;
+    }
 }
 
 @media screen and (min-width:992px) {
@@ -36,7 +41,8 @@ body{
         background-image: linear-gradient(to top, #110303, #892e0755);
     }
     section#login{
-        width: 950px;
+        width: 80vw;
+        height: 350px;
     }
 
     section#login>div#imagem{
@@ -58,5 +64,9 @@ body{
         margin-top: 10px;
         width: 55%;
         padding-left: 5px;
+    }
+
+    form>a#botao{
+        width: 40%;
     }
 }
